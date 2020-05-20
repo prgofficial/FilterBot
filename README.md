@@ -8,7 +8,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 എന്നെ ടെലെഗ്രാമിൽ കാണാൻ സാധിക്കും [Filter Bot](https://t.me/Filters_Robot).
 
-Marie and I are moderating a [support group](https://t.me/MarieSupport), where you can ask for help setting up your
+Marie and I are moderating a [support channel](https://t.me/DX_Botz), where you can ask for help setting up your
 bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
 I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
