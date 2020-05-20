@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/jijin0078/Filter-Bot",
+  "repository": "hhttps://github.com/DarkAngelTG/Filter-Bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
