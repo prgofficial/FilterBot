@@ -146,26 +146,17 @@ if is_module_loaded(FILENAME):
         return build_curr_disabled(chat_id)
 
 
-    __mod_name__ = "♿COMMAND DISABLING♿"
+    __mod_name__ = ""
 
     __help__ = """
- - /cmds: check the current status of disabled commands
-
-*Admin only:*
- - /enable <cmd name>: enable that command
- - /disable <cmd name>: disable that command
- - /listcmds: list all possible toggleable commands
     """
 
-    DISABLE_HANDLER = CommandHandler("disable", disable, pass_args=True, filters=Filters.group)
-    ENABLE_HANDLER = CommandHandler("enable", enable, pass_args=True, filters=Filters.group)
-    COMMANDS_HANDLER = CommandHandler(["cmds", "disabled"], commands, filters=Filters.group)
-    TOGGLE_HANDLER = CommandHandler("listcmds", list_cmds, filters=Filters.group)
+    
 
     dispatcher.add_handler(DISABLE_HANDLER)
     dispatcher.add_handler(ENABLE_HANDLER)
-    dispatcher.add_handler(COMMANDS_HANDLER)
-    dispatcher.add_handler(TOGGLE_HANDLER)
+    dispatcher.add_handle
+    dispatcher.add_handler
 
 else:
     DisableAbleCommandHandler = CommandHandler
