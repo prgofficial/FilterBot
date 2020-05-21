@@ -16,7 +16,7 @@ def media_telegraph(bot: Bot, update: Update):
 
 @run_async
 def post_telegraph(bot: Bot, update: Update, args: List[str]):
-    short_name = "Created By @MidukkiBot 😬"
+    short_name = "Created By @D_ar_k_Angel 😬"
     msg = update.effective_message # type: Optional[Message]
     telegraph = Telegraph()
     r = telegraph.create_account(short_name=short_name)
