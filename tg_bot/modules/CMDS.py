@@ -33,12 +33,12 @@ def post_telegraph(bot: Bot, update: Update, args: List[str]):
 
 
 __help__ = """
-○ My Name : Filter Bot
+○ My Name : *Filter Bot*
 ○ Creator : [D_ar_k_Angel](http://telegram.dog/D_ar_k_Angel)
 ○ Credits : `Everyone in this journey`
 ○ Language : Python3
 ○ Library : [Pyrogram asyncio 0.16.1](https://docs.pyrogram.org/)
-○ Source Code : 👉 [Click Here](https://telegra.ph/file/c99524969744ed621f491.jpg)
+○ Source Code : 👉 [Click Here](https://github.com/DarkAngelTG/Filter-Bot)
 ○ Server : Heroku
 ○ Build Status : V4 `[+0.4]`
 """
