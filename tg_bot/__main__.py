@@ -19,9 +19,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-*Hello* {},*My Name is* *{}*! 
+*Hello* {}, *My Name is* *{}*! 
 
-```This Bot is exclusively made for @moviesonlydiscussion ; мσνιєѕσиℓу™ Team!```
+*This Bot is exclusively made for @moviesonlydiscussion ; мσνιєѕσиℓу™ Team!*
 
 *Channel:© @moviesonlyhere*
 
