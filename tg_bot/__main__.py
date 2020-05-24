@@ -18,25 +18,19 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ █░░║║║╠─║─║─║║║║║╠─░░█ █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 
 *Hello* {},*My Name is* *{}*! 
 
-```You You Can Add any kind of Filters to This Bot!```
+```This Bot is exclusively made for @moviesonlydiscussion ; мσνιєѕσиℓу™ Team!```
 
-*Channel:© @DX_Botz*
+*Channel:© @moviesonlyhere*
 
 /help for more details..
 """
 
 HELP_STRINGS = """
-Hello! my name *{}*.
+Hello Again,
 
-*Main Available Commands* are Below:
-
-All of the following commands  / can  be used...
-
-And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
