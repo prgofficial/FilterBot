@@ -216,6 +216,7 @@ def set_flood_mode(update, context):
         elif args[0].lower() == 'tban':
             if len(args) == 1:
                 teks = """It looks like you tried to set time value for antiflood but you didn't specified time; Try, `/setfloodmode tban <timevalue>`.
+
 Examples of time value: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks."""
                 send_message(update.effective_message, teks, parse_mode="markdown")
                 return
@@ -224,6 +225,7 @@ Examples of time value: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
         elif args[0].lower() == 'tmute':
             if len(args) == 1:
                 teks = """It looks like you tried to set time value for antiflood but you didn't specified time; Try, `/setfloodmode tmute <timevalue>`.
+
 Examples of time value: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks."""
                 send_message(update.effective_message, teks, parse_mode="markdown")
                 return
@@ -277,14 +279,20 @@ def __chat_settings__(chat_id, user_id):
 
 __help__ = """
 You know how sometimes, people join, send 100 messages, and ruin your chat? With antiflood, that happens no more!
+
 Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
 will result in restricting that user.
+
  × /flood: Get the current flood control setting
+
 *Admin only*:
+
  × /setflood <int/'no'/'off'>: enables or disables flood control
  × /setfloodmode <ban/kick/mute/tban/tmute> <value>: Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
+
  Note:
  - Value must be filled for tban and tmute!
+
  It can be:
  5m = 5 minutes
  6h = 6 hours
