@@ -1,7 +1,7 @@
 
 {
   "name": "Filter Bot",
-  "description": "Telegram's sassiest group filter. Modular Telegram group filter bot!",
+  "description": "Modular Telegram group filter bot!",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/jijin0078/Filter-Bot",
+  "repository": "https://github.com/prgofficial/FilterBot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
